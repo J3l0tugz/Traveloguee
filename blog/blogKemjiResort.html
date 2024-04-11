@@ -1,0 +1,105 @@
+<Doctype html>
+    <html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Travelogue</title>
+        <link rel="stylesheet" href="blog_style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a class="logo" href="../index.html#home"><b>Travelogue</b></a>    
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li> <a href="../index.html"><h1>Home</h1></a> </li>
+                        <li> <a href="../index.html#explore"><h1>Explore</h1></a> </li>
+                        <li> <a href="../index.html#about"><h1>About</h1></a> </li>
+                    </ul>
+                </div>  
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+
+        <div class="contain">
+            <img src="media/2.png">
+        </div>
+        
+        <div class="container">
+            <div class="sub-container" id="text-container">
+                <h3><b>Friendly and polite staff</b></h3>
+                <i><p id="reference" style="
+                    color: #444444; 
+                    font-size: 16px" >From Anonymous User on Tripadvisor</p></i>
+                <br>
+                <p>Resort was secure, they have guards on the entrance, staff were friendly and polite! A
+                The hotel was very close to the airport. And it’s about 1& a half kilometer to the town.
+                For the 2nd day itinerary of our Catanduanes travel, 
+                I opted to look for a hotel that is near to airport since we need to be early the next day for our flight. 
+                We also want a lesser-priced room as we already indulged on our room on the 1st day of our travel.</p>
+                
+
+                <br><p>Luckily for me, I was able to book an ordinary room at Kemji’s 2 months prior to our travel despite of them very difficult to search in the internet. 
+                I added Nathaniel Quiñones on Facebook just before he resigned and he helped me with my reservation. 
+                I felt relieved but also anxious as they did not ask for reservation fee and we arrived at the hotel at around 9pm. 
+                The hotel is located in a residential area and the entrance is not that noticeable.</p>
+                <br><img class="img" src="media/kemjiResortEntranceBlog.jpg">
+                <p class="alt-text">Entrance to Kemji</p>
+        
+                <br><p>The receptionist is very accommodating and friendly. We were given a room at the 2nd floor. The room is spacious and clean. 
+                The bed is comfortable and the aircon is working well. The bathroom is clean and has a hot and cold shower. 
+                The hotel has a swimming pool and a restaurant. We had our dinner at the restaurant and the food is good. The price is reasonable. 
+                The breakfast is included in our room rate. The breakfast is served at the restaurant and it is good. The hotel is near to the airport and it is very convenient. 
+                The hotel is also near to the town proper. The hotel is a good choice if you are looking for a budget hotel in Virac.</p>
+                <br>
+                <img class="img" src="media\kemjiPoolBlog.jpg">
+                <p class="alt-text">Kemji pool at night</p>
+            </div>
+            <div class="sub-container" id="img-container">
+                <h4>OTHER DESTINATIONS</h4>
+                <div class="suggestions"></div>
+                <a href="blogECrown.html" title= "E-Crown Hotel and Resort" ><img class="img" src="media/ecrownCard.jpg"></a>
+                <br>
+                <a href="blogLuckyHotel.html" title= "Lucky Hotel and Restaurant" ><img class="img" src="media/luckyCard.jpg"></a>
+                <br>
+                <a href="blogTwinRock.html" title= "Twin Rock Beach Resort" ><img class="img" src="media/twinRockCard.jpg"></a>
+                <br>
+              </div>
+        </div>
+    </section>
+
+    <div class="login-container">
+        <h2>Contact us</h2>
+        <form class="login-form" action="#" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input id="message" type="text" name="message" placeholder="Send Message..." required>
+        <input type="submit" value="Submit">
+        </form>
+        </div>
+        
+
+    <footer>
+        <div class="bottom">
+          <br>
+          <h3>© Travelogue 2023</h3>
+          <p>This website is a final project in ITRACKB1 Web design S.Y. 2023-2024.</p>
+        </div>
+      </footer>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+        
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+<Doctype html>
+    <html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Travelogue</title>
+        <link rel="stylesheet" href="blog_style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a class="logo" href="../index.html#home"><b>Travelogue</b></a>    
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li> <a href="../index.html"><h1>Home</h1></a> </li>
+                        <li> <a href="../index.html#explore"><h1>Explore</h1></a> </li>
+                        <li> <a href="../index.html#about"><h1>About</h1></a> </li>
+                    </ul>
+                </div>  
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+
+        <div class="contain">
+            <img src="media/4.png">
+        </div>
+        
+        <div class="container">
+            <div class="sub-container" id="text-container">
+                <h3><b>Gem in the heart of Virac</b></h3>
+                <i><p id="reference" style="
+                    color: #444444; 
+                    font-size: 16px" >From Unkown contributor 2022</p></i>
+                <br>
+                <p>Arriving at Lucky Hotel & Resort in Virac, Catanduanes, I was pleasantly surprised. The exterior, while not luxurious, had a charming tropical vibe with lush greenery and a welcoming atmosphere.
+                    The staff greeted me with warm smiles and efficient service, making the check-in process a breeze.
+                    I booked a standard room, and while it wasn't the most spacious, it was clean, comfortable, and had everything I needed. 
+                    The bed was surprisingly comfy, and the air conditioning worked perfectly, a welcome relief from the Catanduanes heat. The bathroom was basic but clean, and the hot shower was a bonus.</p>
+                    
+                    <br><img class="img" src="media/luckySkyline.jpg">
+                    <p class="alt-text">Skyline view of downtown Virac from Lucky Hotel</p><br>
+                    <p>Lucky Hotel's location is unbeatable. Right in the heart of Virac, it's close to everything you need: restaurants, shops, the cathedral, and even the beach is just a short walk away. 
+                    I loved being able to explore the town on foot and felt safe and secure even at night.</p>
+                
+                <br>
+                <img class="img" src="media/luckyFoodBlog.jpg">
+                <p class="alt-text">Delicious meals</p><br>
+                <p>The hotel's restaurant surprised me with its delicious and affordable meals. I tried a variety of local dishes, like Bicol Express and Laing, and everything was fresh and flavorful.
+                    The breakfast buffet was simple but satisfying, with pancakes, eggs, rice, and local fruits.</p>
+                <br>
+                <p>Sure, Lucky Hotel isn't directly on the beach, but the beautiful Virac Bay is just a few minutes' walk away. 
+                    I spent countless hours lounging on the sand, soaking up the sun, and swimming in the crystal-clear water. 
+                    The hotel even offers affordable beach chair rentals and towels, making things even more convenient.
+                
+                    Lucky Hotel & Resort might not be a five-star luxury resort, but it's a fantastic option for budget-conscious travelers like myself. 
+                    The friendly staff, clean rooms, delicious food, and unbeatable location make it a perfect base for exploring Virac and Catanduanes. 
+                    I would definitely recommend it to anyone looking for comfortable, affordable accommodations with a touch of island charm.</p>
+                <br><img class="img" src="media/luckyNightBlog.jpg">
+                <p class="alt-text">Pool deck at night</p>
+            </div>
+            <div class="sub-container" id="img-container">
+                <h4>OTHER DESTINATIONS</h4>
+                <div class="suggestions"></div>
+                <a href="blogTwinRock.html" title= "Twin Rock Beach Resort" ><img class="img" src="media/twinRockCard.jpg"></a>
+                <br>
+                <a href="blogKemjiResort.html" title= "Kemji Resort and Restaurant" ><img class="img" src="media/kemjiCard.jpg"></a>
+                <br>
+                <a href="blogECrown.html" title= "E-Crown Hotel and Resort" ><img class="img" src="media/ecrownCard.jpg"></a>
+              </div>
+        </div>
+    </section>
+
+    <div class="login-container">
+        <h2>Contact us</h2>
+        <form class="login-form" action="#" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input id="message" type="text" name="message" placeholder="Send Message..." required>
+        <input type="submit" value="Submit">
+        </form>
+        </div>
+        
+
+    <footer>
+        <div class="bottom">
+          <br>
+          <h3>© Travelogue 2023</h3>
+          <p>This website is a final project in ITRACKB1 Web design S.Y. 2023-2024.</p>
+        </div>
+      </footer>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+        
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

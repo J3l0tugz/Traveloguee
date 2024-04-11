@@ -1,0 +1,100 @@
+<Doctype html>
+    <html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Travelogue</title>
+        <link rel="stylesheet" href="blog_style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a class="logo" href="../index.html#home"><b>Travelogue</b></a>    
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li> <a href="../index.html"><h1>Home</h1></a> </li>
+                        <li> <a href="../index.html#explore"><h1>Explore</h1></a> </li>
+                        <li> <a href="../index.html#about"><h1>About</h1></a> </li>
+                    </ul>
+                </div>  
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+
+        <div class="contain">
+            <img src="media/3.png">
+        </div>
+        
+        <div class="container">
+            <div class="sub-container" id="text-container">
+                <h3><b>Affordable Luxury in Virac</b></h3>
+                <i><p id="reference" style="
+                    color: #444444; 
+                    font-size: 16px" >From Unkown contributor 2022</p></i>
+                <br>
+                <p>I recently stayed at E-Crown Hotel and Resort and I must say that I was impressed with the hotel’s convenient location and reasonable pricing. The hotel is situated in the heart of the city, making it easy to access nearby attractions and restaurants. 
+                    The staff was friendly and welcoming, and they made sure that my stay was comfortable.
+                    The rooms were clean and well-maintained. The hotel offers free high-speed internet and free parking for guests, which is a great plus. 
+                    However, some guests have reported that the hotel is not well-maintained and the rooms are small and outdated. The hotel also does not have a restaurant, but there are several dining options nearby.</p>
+                <br>
+                <br><img class="img" src="media/ecrownChristmasBlog.jpg">
+                <p class="alt-text">Christmas at E-Crown</p>
+                <br>
+                <p>The hotel’s swimming pool is a great place to relax and unwind after a long day of sightseeing. 
+                    The pool area is clean and well-maintained, and the water is crystal clear. The hotel also has a fitness center that is equipped with modern equipment, making it easy to stay fit while on vacation.
+                    The hotel’s beachfront location is another great feature. The beach is clean and well-maintained, and it’s a great place to relax and soak up the sun.</p>
+                <br>  
+                <p>The hotel also offers beach chairs and umbrellas for guests, which is a great plus.
+                    Overall, I would recommend E-Crown Hotel and Resort to travelers looking for a budget-friendly and convenient place to stay in Virac. The hotel’s friendly staff, clean rooms, and great amenities make it a great choice for travelers.</p>
+                <br>
+                <img class="img" src="media/ecrownMorningViewBlog.jpg">
+                <p class="alt-text">Morning seaside view of San Vicente coastline</p>
+            </div>
+            <div class="sub-container" id="img-container">
+                <h4>OTHER DESTINATIONS</h4>
+                <div class="suggestions"></div>
+                <a href="blogLuckyHotel.html" title= "Lucky Hotel and Restaurant" ><img class="img" src="media/luckyCard.jpg"></a>
+                <br>
+                <a href="blogTwinRock.html" title= "Twin Rock Beach Resort" ><img class="img" src="media/twinRockCard.jpg"></a>
+                <br>
+                <a href="blogKemjiResort.html" title= "Kemji Resort and Restaurant" ><img class="img" src="media/kemjiCard.jpg"></a>
+              </div>
+        </div>
+    </section>
+
+    <div class="login-container">
+        <h2>Contact us</h2>
+        <form class="login-form" action="#" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input id="message" type="text" name="message" placeholder="Send Message..." required>
+        <input type="submit" value="Submit">
+        </form>
+        </div>
+        
+
+    <footer>
+        <div class="bottom">
+          <br>
+          <h3>© Travelogue 2023</h3>
+          <p>This website is a final project in ITRACKB1 Web design S.Y. 2023-2024.</p>
+          <a href="https://www.facebook.com/alrickjelo.tugano.3" class="link" title= "Alrick Jelo T. Tugano"><i class="ti-facebook"></i></a>
+        </div>
+      </footer>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+        
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
